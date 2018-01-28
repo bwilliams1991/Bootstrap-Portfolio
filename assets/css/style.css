@@ -7,7 +7,8 @@
 	color: #8B7871;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-family: 'Gloria Hallelujah', cursive;
-}
+} /* copy above as needed */ 
+/* styles for all pages */
 
 .title-center {
 	text-align: center;
@@ -17,6 +18,11 @@
 	position: relative;
 }
 
+/* styles for index */
+
+/* styles for portfolio */
+
+/* styles for contact */
 
 .img-holder {
 	float: left;
@@ -32,4 +38,3 @@
 	background: #BFF406;
 	color: lightslategray;
 }
-
