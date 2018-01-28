@@ -1,14 +1,74 @@
 
-.test {
-	background-color: #324151;
-	border-color: #F4F5F3;
-	color: #98917C;
-	color: #96928C;
-	color: #8B7871;
+/* .stuff {
+	color: #324151; // header backgrounds
+	color: #F4F5F3; // panel and main background
+	color: #98917C; // 
+	color: #96928C; // borders
+	color: #8B7871; // header color
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-family: 'Gloria Hallelujah', cursive;
-} /* copy above as needed */ 
+	font-family: 'Gloria Hallelujah', cursive; 
+}*/ 
+/* copy above as needed */ 
 /* styles for all pages */
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background: #8B7871;
+	background-image: url("../images/intersection/intersection.png");
+}
+
+.page-header {
+	margin-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #96928C;
+}
+
+.headings {
+	background-color: #324151 !important;
+	border-bottom: 2px solid #96928C !important;
+	color: #8B7871 !important;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+}
+.panel-body {
+	background: #F4F5F3;
+}
+
+.main {
+	background: #F4F5F3;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-bottom: 20px;
+}
+
+.away {
+	margin-bottom: 120px;
+
+}
+
+h1 {
+	font-weight: bold;
+	color: #8B7871;
+	background-color: #324151;
+	padding: 20px 15px 20px 15px;
+	margin: 0px;
+}
+
+h3 {
+	font-size: 20px !important;
+}
+
+a:visited, a:link {
+	color: #8B7871 !important;
+	text-decoration: none;
+}
+
+p {
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
 
 .title-center {
 	text-align: center;
@@ -18,23 +78,92 @@
 	position: relative;
 }
 
+footer {
+	background: #324151;
+	color: #8B7871;
+	border-top: 2px solid #96928C;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 14px;
+	padding: 30px 0px 30px 0px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+	left: 0;
+}
 /* styles for index */
-
+.img-about {
+	padding-left: 20px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+}
 /* styles for portfolio */
-
-/* styles for contact */
-
 .img-holder {
 	float: left;
 	position: relative;
-	margin: 20px 0px 20px 50px;
+	margin: 20px 10px 20px 20px;
+	width: 30%;
 }
 
 .img-text {
 	position: absolute;
 	top: 125px;
-	padding: 15px 63px 15px 63px;
+	padding: 15px 49px 15px 49px;
 	font-size: 24px;
-	background: #BFF406;
-	color: lightslategray;
+	background: #324151;
+	color: #8B7871;
+	font-weight: bolder;
+	font-family: 'Gloria Hallelujah', cursive; 
 }
+
+/* styles for contact */
+form {
+	margin-left: 20px;
+}
+
+label, input, textarea {
+	color: #98917C;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+label {
+	font-family: 'Gloria Hallelujah', cursive; 
+}
+
+
+
+/* media queries */
+@media (max-width: 767px) {
+	.main {
+		margin-left: 15px;
+	}
+
+}
+@media (max-width: 1199px) {
+
+	.img-about{
+		width: 150px;
+		height: auto;
+	}
+	
+	.social {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	.social img {
+		width: 35px;
+		height: auto;
+		order: 0;
+		flex-shrink: 1;
+	}
+
+	form {
+		margin-right: 15px
+	}
+}
+
