@@ -140,6 +140,25 @@ label {
 	.main {
 		margin-left: 15px;
 	}
+	.img-holder {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.img-holder img {
+		width: 160px;
+		height: 175px;
+		order: 0;
+		flex-shrink: 1;
+	}
+
+	.img-text {
+		top: 100px;
+		padding: 15px 40px 15px 40px;
+		font-size: 16px;
+	}
+
 
 }
 @media (max-width: 1199px) {
