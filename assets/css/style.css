@@ -133,6 +133,10 @@ label {
 	font-family: 'Gloria Hallelujah', cursive; 
 }
 
+.hangman {
+	padding-right: 57px;
+	padding-left: 57px;
+}
 
 
 /* media queries */
