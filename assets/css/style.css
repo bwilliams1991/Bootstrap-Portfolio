@@ -147,6 +147,21 @@ label {
 	padding-left: 42px;
 }
 
+.train {
+	padding-right: 42px;
+	padding-left: 42px;
+}
+
+.train {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.rps {
+	padding-right: 53px;
+	padding-left: 53px;
+}
+
 
 /* media queries */
 @media (max-width: 767px) {
