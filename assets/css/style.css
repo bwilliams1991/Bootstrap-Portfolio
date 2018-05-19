@@ -162,6 +162,15 @@ label {
 	padding-left: 53px;
 }
 
+.burger{
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+.fortnite {
+	padding-right: 25px;
+	padding-left: 25px;
+}
 
 /* media queries */
 @media (max-width: 767px) {
